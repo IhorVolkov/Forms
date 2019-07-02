@@ -1,0 +1,155 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+#wrapper {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+.layout {
+  width: 768px;
+  display: block;
+  margin: 0 auto;
+  background: rgb(247, 242, 242);
+  margin-top: 40px;
+}
+
+.btn {
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+  width: 110px;
+  height: 60px;
+  background: #ccc;
+  border-radius: 50px;
+  position: relative;
+}
+
+.btn:after {
+  content: 'OFF';
+  display: block;
+  height: 49px;
+  width: 49px;
+  background: white;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  transition: 0.3s 0.1s linear;
+  -o-transition: 0.3s 0.1s linear;
+  -ms-transition: 0.3s 0.1s linear;
+  -moz-transition: 0.3s 0.1s linear;
+  -webkit-transition: 0.3s 0.1s linear;
+  line-height: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ccc;
+}
+input[type='checkbox'] {
+  display: none;
+}
+
+input:checked + .btn:after {
+  content: 'ON';
+  transform: translateX(100%);
+  transition: 0.3s 0.1s linear;
+  -o-transition: 0.3s 0.1s linear;
+  -ms-transition: 0.3s 0.1s linear;
+  -moz-transition: 0.3s 0.1s linear;
+  -webkit-transition: 0.3s 0.1s linear;
+  color: orange;
+}
+input:checked + .btn {
+  background: orange;
+  transition: 0.4s linear;
+  -o-transition: 0.4s linear;
+  -ms-transition: 0.4s linear;
+  -moz-transition: 0.4s linear;
+  -webkit-transition: 0.4s linear;
+}
+form {
+  margin-top: 10px;
+}
+.general {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+textarea {
+  resize: none;
+  border: 2px solid orange;
+  font-family: Helvetica;
+  margin-left: 10px;
+}
+/* p {
+  text-align: center;
+} */
+input[type='submit'] {
+  width: 150px;
+  height: 40px;
+  display: block;
+  background: orange;
+  border: none;
+  border-radius: 4px;
+  font-family: Helvetica;
+  font-size: 20px;
+  color: white;
+  margin-left: 40%;
+}
+form input {
+  width: 150px;
+  height: 35px;
+  display: block;
+  border: 2px solid orange;
+  background: rgb(241, 235, 224);
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+}
+form label {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #555;
+}
+.lft {
+  margin-top: 16px;
+}
+.select {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Helvetica;
+  color: #555;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+select {
+  border-radius: 5px;
+  background: transparent;
+  height: 34px;
+  padding: 8px;
+  border: 1px solid orange;
+  font-size: 16px;
+  line-height: 1;
+  -webkit-appearance: none;
+  width: 110px;
+  margin-top: 10px;
+  margin-left: 5px;
+  display: inline-block;
+  color: #555;
+}
+
+select {
+  background-image: linear-gradient(45deg, transparent 50%, #555 50%),
+    linear-gradient(135deg, #555 50%, transparent 50%), linear-gradient(to right, orange, orange);
+  background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), 100% 0;
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+  background-repeat: no-repeat;
+}
