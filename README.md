@@ -15,11 +15,11 @@
               them wich each others and add code into new files which you would like to check further from website GitHub
               
         f) After post "d" in opened window drag and drop files from your desktop pc which you have recently created to website 
-        GitHub, into new named, created and opened repository
+        GitHub, into new named, into created and opened repository
         
         g)In the string of main menu your repository 
         
-Code - Issues - Pull requests ...   click onto link "Setting" - there is find string "Git Hub Pages" and than in the post "Source" - choose from dropdown menu "None"  - "master branch"
+Code - Issues - Pull requests ...   click onto link "Setting" - there is find string "Git Hub Pages" and than in the post "Source" - choose from dropdown menu "None"  - "master branch" (this is would be a permission for opening your adding file into website GitHub)
 
 3)Into search field in the browser enter next link: https://ihorvolkov.github.io/Forms/forms.html
 4) Where "ihorvolkov" - is your name of your account in a GitHub
