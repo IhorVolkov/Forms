@@ -1,4 +1,4 @@
-# How to run HTML code on a new TAB in any browsers?
+# How to run HTML code on a new TAB in any browsers through GitHub?
 1)Into search field in the browser enter next link: https://ihorvolkov.github.io/Forms/forms.html
 
 2) Where "ihorvolkov" - is your name of your account in a GitHub
